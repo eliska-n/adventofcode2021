@@ -9,7 +9,8 @@ print(fishes)
 prevd = {i: fishes.count(i) for i in range(9)}
 print(prevd)
 
-for i in range(256):
+for i in range(80):     # star1
+#for i in range(256):   # star2
     nextd = {j: 0 for j in range(9)}
     for key, value in prevd.items():
         if key > 0:
