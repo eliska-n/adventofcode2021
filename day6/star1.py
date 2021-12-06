@@ -1,4 +1,3 @@
-
 with open("input.txt", encoding="utf-8") as f:
     strings = [row.split(",") for row in f]
     strings = strings[0]
@@ -22,5 +21,4 @@ for i in range(80):     # star1
     prevd = nextd
 
 population = sum(prevd.values())
-print(prevd)
 print(population)
