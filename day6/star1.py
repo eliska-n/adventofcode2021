@@ -3,10 +3,7 @@ with open("input.txt", encoding="utf-8") as f:
     strings = strings[0]
 fishes = [int(fish) for fish in strings] # O:)
     
-print(fishes)
-
 prevd = {i: fishes.count(i) for i in range(9)}
-print(prevd)
 
 for i in range(80):     # star1
 #for i in range(256):   # star2
