@@ -12,7 +12,6 @@ def polymerize(template_counts, instructions):
                 new_counts[new_d] += count
         # restart cycle
         template_counts = new_counts
-        new_counts = {}
         cycles += 1
 
     return template_counts
